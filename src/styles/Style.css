@@ -1,0 +1,43 @@
+header {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 50px;
+  font-weight: bolder;
+  border: 3px sold black;
+}
+
+.starship-div {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.starshipDiv {
+  border: 2px #2f4f4f;
+  /* border-radius: 2em; */
+  margin-top: 70px;
+  margin-left: 30px;
+  width: 250px;
+  height: 250px;
+  color: #2f4f4f;
+  font-weight: bolder;
+  font-size: x-large;
+  padding-top: 20px;
+}
+
+.starshipDiv:hover {
+  color: white;
+  background-color: #2f4f4f;
+  cursor: pointer;
+}
+#insideSpan {
+  font-size: medium;
+  color: red;
+}
+
+p {
+  font-size: medium;
+  font-weight: bolder;
+  text-overflow: auto;
+}
